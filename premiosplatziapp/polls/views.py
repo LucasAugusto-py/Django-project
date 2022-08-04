@@ -8,7 +8,7 @@ def index(request):
 def detail(request, question_id):
     return HttpResponse(f"Estas viendo la pregunta numero {question_id}")
 
-def resutls(request, question_id):
+def results(request, question_id):
     return HttpResponse(f"Estas viendo los resutlados de la pregunta numero {question_id}")
 
 def vote(request, question_id):
